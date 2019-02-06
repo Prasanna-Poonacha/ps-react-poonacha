@@ -6,9 +6,9 @@ node_js:
 branches:
   except:
   - legacy
+  -dev
 
 # safelist
 branches:
   only:
   - master
-  - dev
