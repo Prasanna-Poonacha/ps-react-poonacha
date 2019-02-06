@@ -11,4 +11,6 @@ node_js:
 # safelist
 branches:
   only:
-  - /.*/
+  - master
+  - dev
+  - legacy
