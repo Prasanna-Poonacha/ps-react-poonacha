@@ -3,12 +3,12 @@ node_js:
   - "6"
   - "7"
 # blocklist
-branches:
-  except:
-  - legacy
-  - dev
+#branches:
+#  except:
+#  - legacy
+#  - dev
 
 # safelist
 branches:
   only:
-  - master
+  - /.*/
